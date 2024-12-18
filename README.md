@@ -4,6 +4,8 @@ Other languages [EN](./EN.md), [Farsi](./farsi.md)
 
 ## Demonstration - 08.02.2025
 
+![](./plakat.jpeg)
+
 ### Zusammen gegen die Angriffe auf Geflüchtete!
 
 Die massiven Angriffe auf die Menschen- und Grundrechte von Schutzsuchenden, die wir aktuell erleben, erschüttern uns 

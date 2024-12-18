@@ -4,9 +4,11 @@
 
 # Solidarity will win
 
-Other languages [DE](./README.md)
+Other languages [DE](./README.md), [Farsi](./farsi.md)
 
 ## Demonstration - 08.02.2025 
+
+![](./plakat.jpeg)
 
 ### United against attacks on refugees!
 

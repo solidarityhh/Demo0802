@@ -8,4 +8,6 @@
 
 Other languages [DE](./README.md), [EN](./EN.md)
 
+![](./plakat.jpeg)
+
 *The translation will be provided soon.*

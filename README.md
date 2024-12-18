@@ -1,3 +1,7 @@
+<header>
+  <!-- TL;DR -->
+</header>
+
 # Solidarity will win
 
 Other languages [EN](./EN.md), [Farsi](./farsi.md)

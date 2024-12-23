@@ -2,18 +2,25 @@
 layout: default
 ---
 
+{% assign index = site.data[site.active_lang].index %}
+{% assign l10n = site.data[site.active_lang].l10n %}
+
 <div class="yellow-section min-h-screen p-5 flex items-center justify-end">
     <div class="flex flex-col gap-4 text-right p-5">
-        <h1 class="font-bold text-9xl">{{ site.data[site.active_lang].l10n.title }}</h1>
-        <h2>{{ site.data[site.active_lang].l10n.subtitle }}</h2>
+        <h1 class="font-bold text-9xl">{{ l10n.title }}</h1>
+        <h2>{{ l10n.subtitle }}</h2>
+
+        <div class="">
+            {{ l10n.event }}
+        </div>
     </div>
 </div>
 
 <div class="purple-section min-h-screen p-5 py-10">
     <article>
-        <h2 class="font-bold text-4xl text-center">{{ site.data[site.active_lang].index.call_title }}</h2>
+        <h2 class="font-bold text-4xl text-center">{{ index.call_title }}</h2>
         <div class="text-xl text-justify py-10 px-6 leading-8">
-            {{ site.data[site.active_lang].index.call | markdownify | newline_to_br }}
+            {{ index.call | markdownify | newline_to_br }}
         </div>
     </article>
 </div>

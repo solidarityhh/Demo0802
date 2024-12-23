@@ -1,7 +1,15 @@
+plugins:
+  - jekyll-polyglot
 include:
   - README.md
   - EN.md
   - farsi.md
+
+# I18N
+languages: ["en", "fa"]
+default_lang: "en"
+exclude_from_localization: ["javascript", "images", "css", "public"]
+parallel_localization: true
 
 name: ""
 title: null

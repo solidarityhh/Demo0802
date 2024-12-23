@@ -6,13 +6,14 @@
 
         {% I18n_Headers %}
 
-        <title>{{ site.data[site.active_lang].index.title }}</title>
+        <title>{{ site.data[site.active_lang].l10n.title }}</title>
 
         <script src="https://cdn.tailwindcss.com"></script>
         <style>
             html, body, main {
                 height: 100%;
                 margin: 0;
+                direction: {{ site.data[site.active_lang].l10n.direction }}
             }
 
             .yellow-section {

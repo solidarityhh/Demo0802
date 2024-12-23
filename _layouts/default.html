@@ -7,6 +7,24 @@
         {% I18n_Headers %}
 
         <title>{{ site.data[site.active_lang].index.title }}</title>
+
+        <script src="https://cdn.tailwindcss.com"></script>
+        <style>
+            html, body, main {
+                height: 100%;
+                margin: 0;
+            }
+
+            .yellow-section {
+                color: black;
+                background-color: yellow;
+            }
+
+            .purple-section {
+                color: rosybrown;
+                background-color: purple;
+            }
+        </style>
     </head>
     <body>
         {% include header.html %}

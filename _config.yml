@@ -6,7 +6,7 @@ include:
   - farsi.md
 
 # I18N
-languages: ["en", "fa"]
+languages: ["en", "de", "fa"]
 default_lang: "en"
 exclude_from_localization: ["javascript", "images", "css", "public"]
 parallel_localization: true

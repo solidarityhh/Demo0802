@@ -10,19 +10,40 @@
 
         <script src="https://cdn.tailwindcss.com"></script>
         <style>
+            :root {
+                --bg-blue: #6176d0;
+                --bg-purple: #c77aaf;
+                --bg-orange: #f89112;
+                --bg-yellow: #f3eb17;
+                --fg-brown: #731202;
+                --fg-pink: #f8caff;
+
+                --yellow-to-orange: linear-gradient(165deg, var(--bg-yellow) 33%, var(--bg-orange) 100%);
+                /* --blue-to-purple: linear-gradient(150deg, var(--bg-blue) 33%, var(--bg-purple) 100%); */
+                --blue-to-purple: linear-gradient(20deg, var(--bg-blue) 33%, var(--bg-purple) 100%);
+            }
+
             html, body, main {
                 margin: 0;
                 direction: {{ site.data[site.active_lang].l10n.direction }}
             }
 
             .yellow-section {
-                color: black;
-                background-color: yellow;
+                color: var(--fg-brown);
+                background: var(--bg-yellow);
             }
 
-            .purple-section {
-                color: rosybrown;
-                background-color: purple;
+            .yellow-gradient {
+                background: var(--yellow-to-orange);
+            }
+
+            .blue-section {
+                color: var(--fg-pink);
+                background: var(--bg-blue);
+            }
+
+            .blue-gradient {
+                background: var(--blue-to-purple)
             }
         </style>
     </head>

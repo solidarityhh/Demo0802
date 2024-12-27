@@ -1,6 +1,8 @@
 lang_name: "English"
 title: "Solidarity will win!"
 subtitle: "United against attacks on refugees!"
-event: "February 8th 25, 1pm, at Steindamm 45"
+date: "February 8th 25"
+time: "1pm"
+location: "At Steindamm 45"
 direction: ltr
 date_format: "%b %e, %Y"

@@ -1,6 +1,8 @@
 lang_name: "Deutsch"
 title: "Solidarity will win!"
 subtitle: "Zusammen gegen die Angriffe auf Geflüchtete!"
-event: "08. Februar 2025, 13:00 Uhr, am Steindamm 45"
+date: "08. Februar 2025"
+time: "13:00 Uhr"
+location: "Am Steindamm 45"
 direction: ltr
 date_format: "%e. %b %Y"

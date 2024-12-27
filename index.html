@@ -7,11 +7,11 @@ layout: default
 
 <div class="yellow-section yellow-gradient min-h-screen p-5 flex items-center justify-end">
     <div class="flex flex-col gap-5 text-right p-5">
-        <h1 class="font-bold text-9xl">{{ l10n.title }}</h1>
-        <h2 class="font-bold text-4xl">{{ l10n.subtitle }}</h2>
+        <h1 class="font-bold text-7xl md:text-9xl">{{ l10n.title }}</h1>
+        <h2 class="font-bold text-2xl md:text-4xl">{{ l10n.subtitle }}</h2>
 
         <div class="flex justify-end text-xl">
-            <div class="yellow-box p-2 px-4 flex gap-4">
+            <div class="yellow-box p-2 px-4 gap-4 flex flex-col md:flex-row">
                 <span class="flex items-center gap-2">
                     <ion-icon name="calendar-clear-outline"></ion-icon>
                     {{ l10n.date }}
@@ -29,19 +29,22 @@ layout: default
     </div>
 </div>
 
-<div class="blue-section blue-gradient min-h-screen p-10 py-20 flex justify-center">
+<div class="blue-section blue-gradient min-h-screen flex justify-center p-3 py-20 md:p-10 ">
     <article class="max-w-6xl">
         <h2 class="font-bold text-4xl text-center">{{ index.call_title }}</h2>
-        <div class="text-xl text-justify py-10 px-6 leading-8">
+        <div class="text-justify py-10 px-6 md:leading-8 text-lg md:text-xl">
             {{ index.call | markdownify | newline_to_br }}
         </div>
     </article>
 </div>
 
-<div class="blue-section flex justify-center">
-    <ul>
-        {% include waypoint.html name="Steintor" alias="Start" time="13:00" %}
-        {% include waypoint.html name="Mönkebergstraße" alias="Zwischenkundgebung" time="14:30" %}
-        {% include waypoint.html name="Reesedammbrücke" alias="Ende" time="16:00" %}
-    </ul>
+<div class="blue-section">
+    <h2 class="font-bold text-4xl text-center">{{ index.route_title }}</h2>
+    <div class="flex justify-center mt-10">
+        <ul>
+            {% include waypoint.html name="Steintor" alias="Start" time="13:00" %}
+            {% include waypoint.html name="Mönkebergstraße" alias="Zwischenkundgebung" time="14:30" %}
+            {% include waypoint.html name="Reesedammbrücke" alias="Ende" time="16:00" %}
+        </ul>
+    </div>
 </div>

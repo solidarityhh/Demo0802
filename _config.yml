@@ -1,9 +1,5 @@
-plugins:
-  - jekyll-polyglot
-include:
-  - README.md
-  - EN.md
-  - farsi.md
+title: "Solidarity will win!"
+url: https://solidarityhh.github.io/
 
 # I18N
 languages: ["en", "de", "fa"]
@@ -11,5 +7,5 @@ default_lang: "en"
 exclude_from_localization: ["javascript", "images", "css", "public"]
 parallel_localization: true
 
-name: ""
-title: null
+plugins:
+  - jekyll-polyglot

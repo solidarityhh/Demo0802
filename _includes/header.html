@@ -2,9 +2,9 @@
     {% for lang in site.languages %}
         {% assign lang_name = site.data[lang].l10n.lang_name %}
         {% if lang == site.default_lang %}
-            <a href=" {{ page.url }}">{{ lang_name }}</a>
+            <a href=" {{ site.baseurl | append: '/' }}">{{ lang_name }}</a>
         {% else %}
-            <a href="/{{ lang }}{{ page.url }}">{{ lang_name }}</a>
+            <a href="{{ lang | append: page.url | relative_url }}">{{ lang_name }}</a>
         {% endif %}
     {% endfor %}
 </div>

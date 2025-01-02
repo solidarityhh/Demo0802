@@ -35,6 +35,6 @@ Wir stellen uns gegen Rassismus
 und fordern soziale Gerechtigkeit und gleiche Rechte für alle Menschen! Dafür gehen wir am 08.02.2025 gemeinsam in 
 Hamburg auf die Straße – laut, wütend und solidarisch.
 
-Wir rufen alle Hamburger&ast;innen auf sich uns anzuschließen und zusammenzustehen: \
-Gegen die Angriffe auf Schutzsuchende und Migrant&ast;innen. \
+Wir rufen alle Hamburger\*innen auf sich uns anzuschließen und zusammenzustehen: \
+Gegen die Angriffe auf Schutzsuchende und Migrant\*innen. \
 Für Solidarität und die Gesellschaft der Vielen!

@@ -1,0 +1,76 @@
+---
+---
+
+{% assign l10n = site.data[site.active_lang].l10n %}
+<!DOCTYPE html>
+<html lang="{{ site.active_lang }}">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="{{ l10n.title }} - {{ l10n.demo_on }} {{ l10n.date }}, {{ l10n.time }}, {{ l10n.location }}">
+
+        {% I18n_Headers %}
+
+        <title>{{ l10n.title }}</title>
+
+        <link rel="stylesheet" type="text/css" href="{{ '/css/output.css' | relative_url }}"></style>
+
+        <link rel="apple-touch-icon" sizes="180x180" href="{{ 'img/apple-touch-icon.png' | relative_url }}">
+        <link rel="icon" type="image/png" sizes="32x32" href="{{ 'img/favicon-32x32.png' | relative_url }}">
+        <link rel="icon" type="image/png" sizes="16x16" href="{{ 'img/favicon-16x16.png'| relative_url }}">
+
+        <style>
+            :root {
+                --bg-blue: #6176d0;
+                --bg-purple: #c77aaf;
+                --bg-orange: #f89112;
+                --bg-yellow: #f3eb17;
+                --fg-brown: #731202;
+                --fg-pink: #f8caff;
+
+                --yellow-to-orange: linear-gradient(165deg, var(--bg-yellow) 33%, var(--bg-orange) 100%);
+                --blue-to-purple: linear-gradient(20deg, var(--bg-blue) 33%, var(--bg-purple) 100%);
+            }
+
+            html, body, main {
+                margin: 0;
+                direction: {{ l10n.direction }};
+                background-color: var(--bg-yellow);
+            }
+
+            .yellow-section {
+                color: var(--fg-brown);
+                background: var(--bg-yellow);
+            }
+
+            .yellow-gradient {
+                background: var(--yellow-to-orange);
+            }
+
+            .yellow-box {
+                background-color: var(--bg-yellow);
+            }
+
+            .blue-section {
+                color: var(--fg-pink);
+                background: var(--bg-blue);
+            }
+
+            .blue-gradient {
+                background: var(--blue-to-purple)
+            }
+        </style>
+    </head>
+    <body>
+        {% include header.html %}
+
+        <main>
+            {{ content }}
+        </main>
+
+        {% include footer.html %}
+
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>

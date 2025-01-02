@@ -1,14 +1,11 @@
+title: "Solidarity will win!"
+url: https://solidarityhh.github.io
+
+# I18N
+languages: ["en", "de", "fa"]
+default_lang: "en"
+exclude_from_localization: ["javascript", "images", "css", "public"]
+parallel_localization: true
+
 plugins:
-  - jekyll-relative-links
-relative_links:
-  enabled: true
-  collections: true
-include:
-  - README.md
-  - EN.md
-  - farsi.md
-
-name: ""
-title: null
-
-theme: jekyll-theme-primer
+  - jekyll-polyglot

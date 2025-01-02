@@ -1,0 +1,14 @@
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - README.md
+  - EN.md
+  - farsi.md
+
+name: ""
+title: null
+
+theme: jekyll-theme-primer

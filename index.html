@@ -43,9 +43,10 @@ layout: default
     <h2 class="font-bold text-4xl text-center">{{ index.route_title }}</h2>
     <div class="flex justify-center mt-10">
         <ul>
-            {% include waypoint.html name="Steindamm 45" alias="Start" time="13:00" %}
-            {% include waypoint.html name="Mönckebergstraße" alias="Zwischenkundgebung" time="14:30" %}
-            {% include waypoint.html name="Reesedammbrücke" alias="Ende" time="16:00" %}
+            {% include waypoint.html name="Steindamm 45" alias=l10n.start time="13:00" %}
+            {% include waypoint.html name="Steintorplatz" alias=l10n.speeches time="14:00" %}
+            {% include waypoint.html name="Mönckebergstraße / Steintorwall" alias=l10n.speeches time="14:30"%}
+            {% include waypoint.html name="Reesedammbrücke" alias=l10n.end time="16:00" %}
         </ul>
     </div>
 </div>

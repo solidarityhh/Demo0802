@@ -5,5 +5,8 @@ demo_on: "Demonstration am"
 date: "08. Februar 2025"
 time: "13:00 Uhr"
 location: "Am Steindamm 45"
+start: "Start"
+end: "Ende"
+speeches: "Zwischenkundgebung"
 direction: ltr
 date_format: "%e. %b %Y"

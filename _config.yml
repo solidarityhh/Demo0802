@@ -2,7 +2,7 @@ title: "Solidarity will win!"
 url: https://solidarityhh.github.io
 
 # I18N
-languages: ["en", "de", "fa", "tr"]
+languages: ["en", "de", "fa", "tr", "ar"]
 default_lang: "en"
 exclude_from_localization: ["javascript", "images", "css", "public"]
 parallel_localization: true
